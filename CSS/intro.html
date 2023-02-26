@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entendendo CSS</title>
+
+
+<!--
+Conhecendo o CSS
+* Cascating Style Sheet
+* Está na sua terceira versão 
+* Se o html é estrutura do documento, o CSS ele é o estilo, a beleza
+* Não é uma linguagem de programação
+* Linguagem Styles Sheet (declarativa e de marcação)
+
+
+-->
+
+<!-- Exemplo básico para conhecer -->
+
+<!-- <style>
+    h1{
+        color:blue;
+    }
+    
+<stlye> -->
+
+<!-- 
+   Anatomia
+
+   h2 {
+          font-weight: 700;
+          color: green;
+          font-size: 48px;
+          
+     }
+
+     * Seletor (Selector)
+     *Declaração (Declaration)
+     *Propriedades (Property)
+     *Valor da Propriedade (Property value)
+
+    Seletores:
+     *Seletor global *
+     *Seletores de elementos - "h1,h2, p, div..."
+     *Seletores usando ID "#box, #container"
+     *Seletores usando class ".red, .box, .container"
+     *Attribute selector, Pseudo-class, Pseudo-element entre outros
+
+ -->
+
+    <!-- <style>       
+    /*
+    Comentário border model
+    <style>
+      As boas práticas para uso do style é dentro do header.
+      Mas, posso usar dentro do body e entra o body e o header.     
+    */
+
+        h1 {
+            border: 1px solid red;
+            margin: 32px;
+            padding: 24px;
+        }        
+    </style> -->
+
+</head>
+
+  <!-- <style>
+    /*
+     Comentário de bloco
+     <style>
+     */
+
+     h1{
+        color:red;
+        font-size: 50px;
+        background: blue;
+     }
+    
+     p{
+        color: green;
+        font-size: 20px;
+        background: yellow;
+     }
+
+   </style> -->
+
+
+
+<body>
+    <!-- <h1>
+        Título
+    </h1>
+
+    <h2>
+        Subtítulo
+    </h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, error fugit expedita, rerum aliquam modi ratione deleniti asperiores, quod esse obcaecati eveniet officiis aut. Sed, ratione. Molestias eligendi accusantium quasi?
+    </p> -->
+
+ <!-- classificacao seletor do tipo class -->
+
+  <!-- Com o inline eu abro um atributo direto no meu HTML e começo a formatar.
+         Não é o correto, deve-se abrir uma estrutura de folha de estilo para trabalhar.    
+    -->
+
+    <div class="container">
+        <h1 style="background: red; color: blue;">Eu sou um titulo</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta amet necessitatibus. Excepturi temporibus laborum,<br>
+            cupiditate ex dolore commodi reiciendis assumenda pariatur aliquam iusto omnis vero adipisci, labore voluptate atque.
+        </p>
+    </div>
+   
+
+
+</body>
+</html>
